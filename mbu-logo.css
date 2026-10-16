@@ -1,0 +1,16 @@
+.brand-mark.mbu-logo{
+  display:block;
+  width:43px;
+  height:43px;
+  flex:0 0 43px;
+  object-fit:cover;
+  border-radius:9px;
+}
+.college-seal.mbu-seal-logo{
+  display:block;
+  width:44px;
+  height:52px;
+  flex:0 0 44px;
+  object-fit:contain;
+  border-radius:0;
+}

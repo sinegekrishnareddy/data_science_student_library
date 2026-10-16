@@ -1,0 +1,18 @@
+.faculty-profile-head{
+  display:flex;
+  align-items:center;
+  gap:22px;
+  margin-bottom:20px;
+}
+.faculty-portrait{
+  width:120px;
+  height:120px;
+  flex:0 0 120px;
+  border-radius:50%;
+  object-fit:cover;
+}
+.faculty-profile-copy h2{margin-top:0}
+@media(max-width:560px){
+  .faculty-profile-head{align-items:flex-start;gap:14px}
+  .faculty-portrait{width:88px;height:88px;flex-basis:88px}
+}

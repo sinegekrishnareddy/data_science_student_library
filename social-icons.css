@@ -1,0 +1,21 @@
+.profile-layout>div:last-child>.panel:last-child .quick-item:nth-child(1) .quick-icon,
+.profile-layout>div:last-child>.panel:last-child .quick-item:nth-child(2) .quick-icon,
+.profile-layout>div:last-child>.panel:last-child .quick-item:nth-child(3) .quick-icon,
+.profile-layout>div:last-child>.panel:last-child .quick-item:nth-child(4) .quick-icon{
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:24px;
+  font-size:0;
+}
+.profile-layout>div:last-child>.panel:last-child .quick-item:nth-child(1) .quick-icon{
+  background-image:url("assets/social-linkedin.svg");
+}
+.profile-layout>div:last-child>.panel:last-child .quick-item:nth-child(2) .quick-icon{
+  background-image:url("assets/social-github.svg");
+}
+.profile-layout>div:last-child>.panel:last-child .quick-item:nth-child(3) .quick-icon{
+  background-image:url("assets/social-leetcode.svg");
+}
+.profile-layout>div:last-child>.panel:last-child .quick-item:nth-child(4) .quick-icon{
+  background-image:url("assets/social-instagram.svg");
+}

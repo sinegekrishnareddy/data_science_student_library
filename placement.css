@@ -1,0 +1,7 @@
+.placement-topics{
+  margin:10px 0 14px;
+  padding-left:20px;
+  color:var(--muted);
+}
+.placement-topics li{margin:5px 0}
+.module-card>.module-footer{gap:10px;flex-wrap:wrap}
