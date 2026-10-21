@@ -20,15 +20,20 @@ Double-click `index.html`. Most pages work locally, but the Python runtime is mo
 - Responsive navigation and home dashboard.
 - Five module cards and topic outlines.
 - Five module outlines populated from the student-provided syllabus topics.
-- PDFs for all five modules with native scrolling and PDF.js-powered single-page flip views (requires internet access for PDF.js; run through a local web server to enable flip mode).
+- Each module card has its own color theme for quick visual identification.
+- PDFs for all five modules with native scrolling and PDF.js-powered two-page flip views, including a book-style spread-turn animation (requires internet access for PDF.js; run through a local web server to enable flip mode).
 - PDFs attached directly to their relevant module pages.
 - Lab page with 13 editable experiments, aims, procedures and browser-side Python execution through Pyodide. Pandas, Matplotlib, Seaborn and scikit-learn examples load their packages as needed; plotting examples render charts in the output panel.
 - Data Science tools guide linked after the Lab & Python editor, with descriptions and official links for common programming, notebook, data, visualization, database, machine-learning, BI, collaboration and big-data tools.
+- Data Science tool cards use locally stored brand logos and distinct accent colors inspired by each tool's familiar interface branding.
 - Data Science faculty profile page with the supplied faculty information, expertise, contact links, institution and screenshot-captured metrics.
 - Faculty page displays the supplied Bosubabu Sambana portrait.
+- Faculty page displays the supplied Mohan Babu University logo in the current institution section.
 - Supplied MBU logo is displayed in the sidebar brand and student profile card.
 - Module-wise 2-mark and 8-mark question banks, downloadable as a text file, plus viva questions.
 - Read-only student profile and personal ID-card mock-up populated with the configured student details and profile photo.
+- Student profile academic details use distinct color accents for quick visual scanning.
+- Personal details, address fields and social media links also use distinct color accents for quick visual scanning.
 - Student profile includes the supplied LinkedIn, GitHub, LeetCode and Instagram links in its Social media section.
 - Social media links use locally stored SVG icons.
 - Study planner with checkboxes and due dates.

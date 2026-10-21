@@ -1,0 +1,55 @@
+.tool-card{
+  border-top:5px solid var(--tool-accent);
+  background:linear-gradient(145deg,var(--tool-tint),var(--surface) 58%);
+}
+.tool-card .module-number{
+  color:var(--tool-accent);
+  background:var(--tool-tint);
+}
+.tool-logo{
+  display:block;
+  width:38px;
+  height:38px;
+  object-fit:contain;
+  padding:4px;
+  border-radius:11px;
+  background:#fff;
+}
+.tool-card h3{color:var(--tool-accent)}
+.tool-site-link{
+  display:grid;
+  width:34px;
+  height:34px;
+  flex:0 0 34px;
+  place-items:center;
+  border:2px solid var(--tool-accent);
+  border-radius:50%;
+  background:var(--tool-accent);
+  color:#fff;
+  font-size:18px;
+  font-weight:700;
+  line-height:1;
+  text-decoration:none;
+  transition:transform .18s ease,box-shadow .18s ease;
+}
+.tool-site-link:hover{
+  transform:translateY(-2px);
+  box-shadow:0 4px 12px color-mix(in srgb,var(--tool-accent) 38%,transparent);
+}
+.tool-site-link:focus-visible{
+  outline:3px solid var(--tool-accent);
+  outline-offset:3px;
+}
+.tool-python{--tool-accent:#245580;--tool-tint:#ffe36e}
+.tool-jupyter{--tool-accent:#bf4715;--tool-tint:#ffe0cf}
+.tool-colab{--tool-accent:#c85b00;--tool-tint:#ffdfb8}
+.tool-numpy{--tool-accent:#345fbe;--tool-tint:#d7e2ff}
+.tool-pandas{--tool-accent:#130754;--tool-tint:#dcd6ff}
+.tool-matplotlib{--tool-accent:#185783;--tool-tint:#cfeafb}
+.tool-seaborn{--tool-accent:#28635f;--tool-tint:#ccece6}
+.tool-scikitlearn{--tool-accent:#bd5510;--tool-tint:#ffdfc2}
+.tool-sql{--tool-accent:#285573;--tool-tint:#d2e9f7}
+.tool-powerbi{--tool-accent:#8a6c00;--tool-tint:#ffec8c}
+.tool-tableau{--tool-accent:#285a84;--tool-tint:#d5e9f8}
+.tool-github{--tool-accent:#24292f;--tool-tint:#dce0e5}
+.tool-spark{--tool-accent:#bb2920;--tool-tint:#ffd8d3}
